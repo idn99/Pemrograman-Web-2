@@ -9,6 +9,7 @@
         <input type=submit value="Tentukan Diskon">
     </form>
     <?php
+        $total_beli = @$_GET['total_beli'];
         if (isset($total_beli)){
             $total_beli=intval($total_beli);
             $diskon=0;
